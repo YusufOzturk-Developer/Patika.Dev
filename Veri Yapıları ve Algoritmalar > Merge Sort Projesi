@@ -1,7 +1,36 @@
 Proje 2
 [16,21,11,8,12,22] -> Merge Sort
 
+S1- Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
+1. adım diziyi önce ikiye ve sonrasında tek eleman kalana kadar bölelim;
 
-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
-Big-O gösterimini yazınız.
+ [16,21,11]      [8,12,22]
+[16,21] [11]    [8,12] [22]
+
+2. adım her dizi partçacığını kendi içinde sıralayalım(ikili diziler hali hazırda sıralı);
+
+ [16,21,11]      [8,12,22]
+[16,21] [11]    [8,12] [22]
+
+3. adım dizileri karşılaştırma yaparak birleştirelim;
+
+ [16,21,11]     [8,12,22]
+[16,21] [11]   [8,12] [22]
+ [11,16,21]     [8,12,22]
+
+4. ason olarak elimizde oluşan 2 diziyi karşılaştırma yaparak birleştirelim;
+
+ [16,21,11]     [8,12,22]
+[16,21] [11]   [8,12] [22]
+ [11,16,21]     [8,12,22]
+     [8,11,12,16,21,22]
+
+S2- Big-O gösterimini yazınız.
+
+Merge sort algoritmasında dizileri tek eleman kalana kadar böleceğimiz için n elemanlı bir dizide n adet bölme işlemi yapmamız gerekir. Buradan Big-O
+notasyonumuza katacağımız n çarpanımız gelir,
+Dizileri alt dizilere böldükten sonra her bir dizi kırınım katmanında ikili karşılaştırma yapmamız gerekir. Buradan da Big-O notasyonumuza 
+katacağımız Log n çarpanımız gelir,
+
+Sonuç olarak Big-O notasyonumuz n.Log n olur.
