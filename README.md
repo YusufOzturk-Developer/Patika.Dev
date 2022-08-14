@@ -1,2 +1,4 @@
 # Patika.Dev
-Patika Projeleri
+Patika.Dev platformundaki eğitimlerin projelerini burada görebilirsiniz.
+
+1- Insertion Sort Projesi
