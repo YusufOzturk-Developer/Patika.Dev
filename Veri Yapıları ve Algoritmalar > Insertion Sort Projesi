@@ -4,20 +4,37 @@ Proje 1
 S1- Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 1.adım [22,27,16,2,18,6] -> n 
-2.adım [2|27,16,22,18,6] -> n-1
+2.adım [2,27,16,22,18,6] -> n-1
 3.adım [2,6,16,22,18,27] -> n-2
-4.adım [2,6|16,22,18,27] -> n-3
-5.adım [2,6,16|18,22,27] -> n-4
-6.adım [2,6,16,18|22,27] -> n-5
-7.adım [2,6,16,18,22|27] -> +1
+4.adım [2,6,16,22,18,27] -> n-3
+5.adım [2,6,16,18,22,27] -> n-4
+6.adım [2,6,16,18,22,27] -> n-5
+7.adım [2,6,16,18,22,27] -> +1
 
 
 S2- Big-O gösterimini yazınız.
 
+İlk adımda tüm rakamları tek tek kontrol ettiğimiz için işlem sayısı "n" adettir.
+ikinci adımda ilk bulduğumuz rakamının dışında kalanlar arasında en küçük rakamı aradığımız için buradaki işlem sayısı n-1 adet olur.
+Diğer adımlarda son rakam kalana kadar işlemler tekrarlanır. n+(n-1)+(n-2)..+1
+En son rakam tek başına olduğu için +1 'dir.
 
+Yukardaki dizide ve insertion sort algoritmasında genel olarak bulacağımız iafade n+(n-1)+(n-2)....+1 'dir. Bu 1 'den n'e kadar ardışık sayıların 
+toplamı ifadesidir matematikteki karşılığı n.(n+1)/2 'dir. İfadeyi sadeleştirecek olursak n^2+n/2 sonucunu buluruz.
+Big-O notasyonunda fonksiyonel değeri en büyük olan sayı alınır. Bizim çalışmamızdaki (n^2+n/2) ifadesinin fonksiyonel olarak en büyük değeri
+n^2 olduğundan Big-O notasyonumuz (n^2)dir.
 
 S3- Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
+Bizim çalışmamızdaki dizi sıralandığında 2,6,16,18,22,27] 18 sayısı dizinin orta kısmında yer alır. Time Complexity Average case olur.
+
 
 S4- [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+1.adım  [7,3,5,8,2,6,9,4,15,6] -> n 
+2.adım  [2,3,5,8,7,6,9,4,15,6] -> n-1
+3.adım  [2,3,5,8,7,6,9,4,15,6] -> n-2
+4.adım  [2,3,4,8,7,6,9,5,15,6] -> n-3
+
+
