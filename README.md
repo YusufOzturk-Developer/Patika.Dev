@@ -6,3 +6,5 @@ Patika.Dev platformundaki eğitimlerin projelerini burada görebilirsiniz.
 2- Merge Sort Projesi
 
 3- Binary Search Tree Projesi
+
+4- SQL - Where Query Projesi
