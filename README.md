@@ -10,3 +10,5 @@ Patika.Dev platformundaki eğitimlerin projelerini burada görebilirsiniz.
 4- SQL - Where Query Projesi
 
 5- SQL - Between Query Projesi
+
+6- SQL - Like-iLike Query Projesi
