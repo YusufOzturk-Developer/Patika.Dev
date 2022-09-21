@@ -1,7 +1,6 @@
 dvdrental örnek veri tabanı üzerinden;
 
-1- country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile 
-başlayıp 'a' karakteri ile sonlananları sıralayınız.
+1- country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
 
 select * from country
 where country like 'A%a';
