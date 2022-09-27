@@ -14,3 +14,5 @@ Patika.Dev platformundaki eğitimlerin projelerini burada görebilirsiniz.
 6- SQL - Like-iLike Query Projesi
 
 7- SQL - Distinct-Count Query Projesi
+
+8- SQL - Order-Limit-Offset Projesi
