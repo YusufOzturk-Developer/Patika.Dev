@@ -15,4 +15,6 @@ Patika.Dev platformundaki eğitimlerin projelerini burada görebilirsiniz.
 
 7- SQL - Distinct-Count Query Projesi
 
-8- SQL - Order-Limit-Offset Projesi***
+8- SQL - Order-Limit-Offset Projesi
+
+9- SQL - Aggregate Fonksiyonlar
