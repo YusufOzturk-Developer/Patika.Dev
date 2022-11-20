@@ -17,4 +17,4 @@ Patika.Dev platformundaki eğitimlerin projelerini burada görebilirsiniz.
 
 8- SQL - Order-Limit-Offset Projesi
 
-9- SQL - Aggregate Fonksiyonlar
+9- SQL - Aggregate Fonksiyonlar Projesi
